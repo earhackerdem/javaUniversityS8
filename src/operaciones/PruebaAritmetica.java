@@ -13,7 +13,7 @@ public class PruebaAritmetica {
         System.out.println("resultado = " + resultado);
 
         resultado = aritmetica1.sumarConArgumentos(5, 8);
-        System.out.println("resultado usando argumentos =" + resultado);
+        System.out.println("resultado usando argumentos = " + resultado);
 
     }
 }

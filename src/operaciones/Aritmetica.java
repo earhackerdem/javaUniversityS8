@@ -3,7 +3,7 @@ package operaciones;
 public class Aritmetica {
 
     //Atributos de la clase
-    int a;
+    int a; // el argumento a se asigna al atributo this.a
     int b;
 
     //Metodo
@@ -13,14 +13,14 @@ public class Aritmetica {
     }
 
     public int sumarConRetorno() {
-        return a + b;
+        return this.a + this.b;
     }
 
-    public int sumarConArgumentos(int arg1, int arg2) {
-        a = arg1;
-        b = arg2;
+    public int sumarConArgumentos(int a, int b) {
+        this.a = a;
+        this.b = b;
         //return a + b;
-        return sumarConRetorno();
+        return this.sumarConRetorno();
     }
 
 }
