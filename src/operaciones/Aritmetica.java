@@ -5,6 +5,11 @@ public class Aritmetica {
     //Atributos de la clase
     int a; // el argumento a se asigna al atributo this.a
     int b;
+    
+    //Constructor vacio
+    public Aritmetica(){
+        System.out.println("Ejecutando constructor");
+    }
 
     //Metodo
     public void sumar() {
